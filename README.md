@@ -16,26 +16,27 @@ A comprehensive task management solution built with Flutter, designed to help us
  
 lib/
 ├── core/
-│   ├── cubits/         # Core Cubits for state management
-│   ├── di/             # Dependency Injection setup
-│   ├── functions/      # Reusable helper functions
-│   ├── helpers/        # Shared helper classes and utilities
-│   ├── local_database/ # Local database management
-│   ├── routes/         # Application route management
-│   ├── themes/         # App themes and styling
-│   ├── utils/          # Constants and utilities
-│   └── widgets/        # Shared widgets used across the app
+│   ├── cubits/             # Core Cubits for state management
+│   ├── di/                 # Dependency Injection setup
+│   ├── functions/          # Reusable helper functions
+│   ├── helpers/            # Shared helper classes and utilities
+│   ├── local_database/     # Local database management
+│   ├── routes/             # Application route management
+│   ├── themes/             # App themes and styling
+│   ├── utils/              # Constants and utilities
+│   └── widgets/            # Shared widgets used across the app
 │
 ├── features/
 │   ├── tasks/
-│   │   ├── data/       # Data models and business logic
+│   │   ├── data/           # Data models and business logic
 │   │   └── presentation/
-│   │       ├── controllers/ # Cubits for task state management
-│   │       ├── screens/     # Main UI screens
-│   │       └── widgets/     # Task-related UI components
+│   │       ├── controllers/  # Cubits for task state management
+│   │       ├── screens/      # Main UI screens
+│   │       └── widgets/      # Task-related UI components
+│   │
 │   └── todo_layout/
-│       ├── data/       # Layout data management
-│       └── presentation/ # Main layout presentation
+│       ├── data/           # Layout data management
+│       └── presentation/   # Main layout presentation
 │
-├── custom_bloc_observer.dart # Custom Bloc observer
-└── main.dart                 # Application entry point
+├── custom_bloc_observer.dart  # Custom Bloc observer
+└── main.dart                  # Application entry point
