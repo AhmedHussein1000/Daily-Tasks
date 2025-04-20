@@ -14,25 +14,28 @@ A comprehensive task management solution built with Flutter, designed to help us
 
 ## 📂 Project Structure 
  
+lib/
 ├── core/
-│   ├── cubits/
-│   ├── di/
-│   ├── functions/
-│   ├── helpers/
-│   ├── local_database/
-│   ├── routes/
-│   ├── themes/
-│   ├── utils/
-│   └── widgets/
+│   ├── cubits/         # Core Cubits for state management
+│   ├── di/             # Dependency Injection setup
+│   ├── functions/      # Reusable helper functions
+│   ├── helpers/        # Shared helper classes and utilities
+│   ├── local_database/ # Local database management
+│   ├── routes/         # Application route management
+│   ├── themes/         # App themes and styling
+│   ├── utils/          # Constants and utilities
+│   └── widgets/        # Shared widgets used across the app
+│
 ├── features/
 │   ├── tasks/
-│   │   ├── data/
-│   │   ├── presentation/
-│   │   │   ├── controllers/
-│   │   │   ├── screens/
-│   │   │   └── widgets/
+│   │   ├── data/       # Data models and business logic
+│   │   └── presentation/
+│   │       ├── controllers/ # Cubits for task state management
+│   │       ├── screens/     # Main UI screens
+│   │       └── widgets/     # Task-related UI components
 │   └── todo_layout/
-│       ├── data/
-│       └── presentation/
-├── custom_bloc_observer.dart
-└── main.dart
+│       ├── data/       # Layout data management
+│       └── presentation/ # Main layout presentation
+│
+├── custom_bloc_observer.dart # Custom Bloc observer
+└── main.dart                 # Application entry point
