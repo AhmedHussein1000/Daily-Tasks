@@ -13,7 +13,7 @@ A comprehensive task management solution built with Flutter, designed to help us
 - 📱 Responsive UI
 
 ## 📂 Project Structure 
- 
+```bash
 lib/
 ├── core/
 │   ├── cubits/             # Core Cubits for state management
