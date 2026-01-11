@@ -1,6 +1,6 @@
 # 📝 Daily Tasks App
 
-A comprehensive task management solution built with Flutter, designed to help users organize their daily activities efficiently. The application leverages Cubit for state management and sqflite for persistent local storage, ensuring a smooth and responsive user experience.
+A comprehensive task management solution built with Flutter, designed to help users organize their daily activities efficiently. The application leverages Cubit for state management, sqflite for persistent local storage, and local notifications for scheduled task reminders, ensuring a smooth and responsive user experience.
 
 ## 📱 Demo
 (https://drive.google.com/file/d/165hAr_NPr6cAO6oixh0FB3v9UIaqMdLR/view?usp=drive_link)
@@ -8,6 +8,7 @@ A comprehensive task management solution built with Flutter, designed to help us
 ## 🚀 Features
 - ✔️ Add, edit, and delete tasks
 - 🌓 Light/Dark theme support
+- ⏰ Task Reminders: Notification 5 minutes before task time
 - 🧩 Cubit state management
 - 🛣️ Clean routing architecture
 - 📱 Responsive UI
@@ -22,6 +23,7 @@ lib/
 │   ├── helpers/            # Shared helper classes and utilities
 │   ├── local_database/     # Local database management
 │   ├── routes/             # Application route management
+│   ├── services/           # Notification services
 │   ├── themes/             # App themes and styling
 │   ├── utils/              # Constants and utilities
 │   └── widgets/            # Shared widgets used across the app

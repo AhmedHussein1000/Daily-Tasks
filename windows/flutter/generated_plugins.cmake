@@ -3,7 +3,9 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  rive_common
+  awesome_notifications
+  awesome_notifications_core
+  rive_native
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
